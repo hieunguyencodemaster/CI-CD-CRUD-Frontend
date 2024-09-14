@@ -15,7 +15,7 @@ const ViewUser = () => {
 
   useEffect(() => {
     axios
-      .get(`http://13.229.115.53:8080/api/employee/${id}`)
+      .get(`http://13.250.149.2:8080/api/employee/${id}`)
       .then((response) => {
         setEmployee(response.data);
       })
@@ -31,7 +31,7 @@ const ViewUser = () => {
           <div className="row no-gutters">
             <div className="col-md-4">
               <img
-                src={`http://13.229.115.53:8080/uploads/${employee.img}`}
+                src={`http://13.250.149.2:8080/uploads/${employee.img}`}
                 className="card-img"
                 alt={`${employee.name}`}
                 style={{
