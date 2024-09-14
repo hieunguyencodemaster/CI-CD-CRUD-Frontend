@@ -36,7 +36,7 @@ const PostUser = () => {
 
     try {
       const response = await axios.post(
-        "http://13.229.115.53:8080/api/employee/add",
+        "http://13.250.149.2:8080/api/employee/add",
         data,
         {
           headers: {
