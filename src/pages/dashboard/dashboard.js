@@ -74,7 +74,7 @@ const Dashboard = () => {
                 <td>{emp.department}</td>
                 <td>
                   <img
-                    src={`http://13.229.115.53:8080/uploads/${emp.img}`}
+                    src={`http://13.250.149.2:8080/uploads/${emp.img}`}
                     alt="Employee"
                     style={{
                       width: "50px",
