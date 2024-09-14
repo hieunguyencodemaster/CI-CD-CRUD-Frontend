@@ -15,7 +15,7 @@ const UpdateUser = () => {
 
   useEffect(() => {
     axios
-      .get(`http://13.229.115.53:8080/employee/${id}`)
+      .get(`http://13.250.149.2:8080/employee/${id}`)
       .then((response) => {
         setEmployee(response.data);
       })
@@ -51,7 +51,7 @@ const UpdateUser = () => {
       formData.append("img", employee.img);
     }
     try {
-      axios.put(`http://13.229.115.53:8080/api/employee/update/${id}`, formData, {
+      axios.put(`http://13.250.149.2:8080/api/employee/update/${id}`, formData, {
         headers: {
           "Content-Type": "multipart/form-data",
         },
