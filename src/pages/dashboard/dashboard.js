@@ -7,7 +7,7 @@ const Dashboard = () => {
 
   useEffect(() => {
     axios
-      .get(`http://13.229.115.53:8080/api/employee/all`)
+      .get(`http://13.250.149.2:8080/api/employee/all`)
       .then((response) => {
         setEmployees(response.data);
       })
@@ -18,7 +18,7 @@ const Dashboard = () => {
 
   const handelView = (id) => {
     axios
-      .get(`http://13.229.115.53:8080/api/employee/${id}`)
+      .get(`http://13.250.149.2:8080/api/employee/${id}`)
       .then((response) => {
         setEmployeeId(response.data);
       })
@@ -33,7 +33,7 @@ const Dashboard = () => {
     );
     if (userConfirm) {
       axios
-        .delete(`http://13.229.115.53:8080/api/employee/delete/${id}`)
+        .delete(`http://13.250.149.2:8080/api/employee/delete/${id}`)
         .then((response) => {
           console.log("Delete employee success !");
         })
