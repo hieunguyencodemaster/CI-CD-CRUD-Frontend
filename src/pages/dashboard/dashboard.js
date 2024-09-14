@@ -44,7 +44,7 @@ const Dashboard = () => {
   };
   return (
     <div className="container mt-5">
-      <h1 className="text-center mb-4">Employee List 2</h1>
+      <h1 className="text-center mb-4">Employee List</h1>
       <button className="btn btn-primary mb-4">
         <a className="navbar-brand" href="/employee">
           Post Employee
@@ -54,7 +54,7 @@ const Dashboard = () => {
       <table className="table table-striped table-bordered">
         <thead className="thead-dark">
           <tr>
-            <th>Name</th>
+            <th>Name a</th>
             <th>Email</th>
             <th>Phone</th>
             <th>Department</th>
