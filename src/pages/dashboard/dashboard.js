@@ -7,7 +7,7 @@ const Dashboard = () => {
 
   useEffect(() => {
     axios
-      .get(`http://13.250.149.2:8080/api/employee/all`)
+      .get(`http://13.250.149.2:8080/api/employee/all/a`)
       .then((response) => {
         setEmployees(response.data);
       })
