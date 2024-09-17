@@ -44,7 +44,7 @@ const Dashboard = () => {
   };
   return (
     <div className="container mt-5">
-      <h1 className="text-center mb-4">Employee List 2024</h1>
+      <h1 className="text-center mb-4">Employee List 2024 Nguyễn Trung Tính</h1>
       <button className="btn btn-primary mb-4">
         <a className="navbar-brand" href="/employee">
           Post Employee
